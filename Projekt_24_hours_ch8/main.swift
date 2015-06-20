@@ -42,3 +42,14 @@ if myArray.isEmpty {
 } else {
     println("myArray is not empty yet")
 }
+
+func addVariadicNumbers(numbers: Int...) {
+    var result = 0
+    for eachNum in numbers {
+        result+=eachNum
+    }
+    println("Sun total of numbers: \(result)")
+}
+
+addVariadicNumbers(1,2,3)
+
