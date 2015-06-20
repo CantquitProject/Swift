@@ -53,3 +53,7 @@ func addVariadicNumbers(numbers: Int...) {
 
 addVariadicNumbers(1,2,3)
 
+// Version 1.1
+// und bald kommt Version 1.2
+
+
